@@ -27,6 +27,10 @@
         <activity android:name=".OpcionesActivity" />
         <activity android:name=".MapActivity" />
         <activity android:name=".InformacionActivity" />
+        <activity android:name=".TigoActivity" />
+        <activity android:name=".EntelActivity" />
+        <activity android:name=".CotelActivity" />
+        <activity android:name=".DelapazActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

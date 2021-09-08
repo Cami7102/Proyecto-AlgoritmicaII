@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:background="#121212">
 
     <TextView
         android:id="@+id/textViewInfoTigo"
-        android:layout_width="411dp"
-        android:layout_height="152dp"
+        android:layout_width="336dp"
+        android:layout_height="156dp"
         android:background="@drawable/fondo_texto"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.026"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.188" />
+        app:layout_constraintVertical_bias="0.186" />
 
     <TextView
         android:id="@+id/textViewg"
@@ -28,23 +29,23 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewInfoTigo"
         app:layout_constraintEnd_toEndOf="@+id/textViewInfoTigo"
-        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintHorizontal_bias="0.86"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewInfoTigo"
-        app:layout_constraintVertical_bias="0.319" />
+        app:layout_constraintVertical_bias="0.447" />
 
     <TextView
         android:id="@+id/textViewInfoEntel"
-        android:layout_width="406dp"
-        android:layout_height="143dp"
+        android:layout_width="354dp"
+        android:layout_height="142dp"
         android:background="@drawable/fondo_texto"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.964"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.482" />
 
     <TextView
         android:id="@+id/textViewGG"
@@ -55,15 +56,15 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewInfoEntel"
         app:layout_constraintEnd_toEndOf="@+id/textViewInfoEntel"
-        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewInfoEntel"
-        app:layout_constraintVertical_bias="0.46" />
+        app:layout_constraintVertical_bias="0.548" />
 
     <TextView
         android:id="@+id/textViewInfoCotel"
-        android:layout_width="409dp"
-        android:layout_height="135dp"
+        android:layout_width="338dp"
+        android:layout_height="134dp"
         android:background="@drawable/fondo_texto"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -71,7 +72,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.734" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <TextView
         android:id="@+id/textViewggg"
@@ -82,98 +83,112 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewInfoCotel"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="@+id/textViewInfoCotel"
-        app:layout_constraintTop_toTopOf="@+id/textViewInfoCotel"
-        app:layout_constraintVertical_bias="0.454" />
+        app:layout_constraintTop_toTopOf="@+id/textViewInfoCotel" />
 
     <TextView
         android:id="@+id/textViewInfoElectro"
-        android:layout_width="409dp"
-        android:layout_height="136dp"
+        android:layout_width="337dp"
+        android:layout_height="138dp"
         android:background="@drawable/fondo_texto"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.988" />
+        app:layout_constraintVertical_bias="0.989" />
 
     <TextView
         android:id="@+id/textViewgggg"
-        android:layout_width="180dp"
-        android:layout_height="86dp"
+        android:layout_width="165dp"
+        android:layout_height="57dp"
         android:text="DeLaPaz"
         android:textColor="#FBFBFB"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/textViewInfoElectro"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/textViewInfoElectro"
         app:layout_constraintTop_toTopOf="@+id/textViewInfoElectro"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.407" />
+
+    <ImageView
+        android:id="@+id/imageViewDelapaz"
+        android:layout_width="142dp"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewInfoElectro"
+        app:layout_constraintEnd_toStartOf="@+id/textViewgggg"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="@+id/textViewInfoElectro"
+        app:layout_constraintTop_toTopOf="@+id/textViewInfoElectro"
+        app:layout_constraintVertical_bias="0.475"
+        app:srcCompat="@drawable/delapaz" />
+
+    <ImageView
+        android:id="@+id/imageViewCotel"
+        android:layout_width="163dp"
+        android:layout_height="199dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748"
+        app:srcCompat="@drawable/cotel_logo" />
+
+    <ImageView
+        android:id="@+id/imageViewEntel"
+        android:layout_width="157dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.481"
+        app:srcCompat="@drawable/entel" />
+
+    <ImageView
+        android:id="@+id/imageViewTigo"
+        android:layout_width="145dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/tigo" />
 
     <TextView
         android:id="@+id/textViewTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="EMPRESAS QUE PUEDEN AYUDARTE"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.035" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="142dp"
-        android:layout_height="98dp"
-        app:layout_constraintBottom_toBottomOf="@+id/textViewInfoElectro"
-        app:layout_constraintEnd_toStartOf="@+id/textViewgggg"
-        app:layout_constraintStart_toStartOf="@+id/textViewInfoElectro"
-        app:layout_constraintTop_toTopOf="@+id/textViewInfoElectro"
-        app:srcCompat="@drawable/delapaz" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="229dp"
-        android:layout_height="233dp"
+    <TextView
+        android:id="@+id/textViewMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulse en las imagenes para ver la informacion de cada empresa"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textViewInfoEntel"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785"
-        app:srcCompat="@drawable/cotel_logo" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="157dp"
-        android:layout_height="120dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477"
-        app:srcCompat="@drawable/entel" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="145dp"
-        android:layout_height="266dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.097"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113"
-        app:srcCompat="@drawable/tigo" />
+        app:layout_constraintVertical_bias="0.101" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
