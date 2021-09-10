@@ -2,11 +2,11 @@ package com.example.electricity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.*
+import com.google.android.gms.maps.model.CameraPosition
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+
 
 class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
@@ -20,7 +20,9 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private fun createMapFragment() {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.mapCableado) as SupportMapFragment
-        mapFragment.getMapAsync(this)     }
+        mapFragment.getMapAsync(this)
+
+    }
 
     override fun onMapReady(p0: GoogleMap) {
         map=p0
@@ -31,5 +33,7 @@ class MapActivity : AppCompatActivity(), OnMapReadyCallback {
         map.addMarker(MarkerOptions().position(LatLng(-16.574669149239515, -68.12752925562089)))
         map.addMarker(MarkerOptions().position(LatLng(-16.574185845767307, -68.12788330719418)))
         map.addMarker(MarkerOptions().position(LatLng(-16.57457146033765, -68.12697672058982)))
+
+        map.animateCamera(CameraUpdateFactory.newLatLngZoom(LatLng(-16.4963238471052, -64.48222396894373),3f))
     }
 }
