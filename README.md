@@ -1,6 +1,8 @@
 # Proyecto-Algoritmica II
 ## ELECTRICITY
 
+Electricity es una aplicacion que nos ayuda a encontrar la distancia minima entre postes de un manzano para realizar un cableado ya sea de TV, internet o luz, tambien encontramos informacion de empresas que pueden realizar este cableado.
+
 GUIA DE INSTALACION 
 
 1. Clonar el proyecto de este repositorio en Android Studio.
